@@ -11,7 +11,7 @@ pipeline {
 
         stage('git clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/Viveksgautam/jenkins-live.git'
+                git branch: 'main', url: 'https://github.com/Ankit-0395/jenkins-live'
             }
         }
 
